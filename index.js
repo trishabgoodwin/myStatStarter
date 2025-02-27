@@ -95,7 +95,9 @@ function getMax(numbers) {
  * @returns {number} the range of the numbers (max - min)
  */
 function getRange(numbers) {
-  // TODO
+  return number [
+    getMax-getMin
+  ]
 }
 
 /**
