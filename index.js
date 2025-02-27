@@ -58,8 +58,7 @@ function getSum(numbers) {
  * @returns {number} the mean of the numbers
  */
 function getMean(numbers) {
-  // TODO
-  let sum = 0;
+let sum = 0;
   for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
   } 
@@ -74,6 +73,10 @@ function getMean(numbers) {
  */
 function getMin(numbers) {
   // TODO
+  for (i=0; i<1; i++) {
+    numbers.sort();
+}
+return numbers[0];
 }
 
 /**
