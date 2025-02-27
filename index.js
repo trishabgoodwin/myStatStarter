@@ -95,9 +95,7 @@ function getMax(numbers) {
  * @returns {number} the range of the numbers (max - min)
  */
 function getRange(numbers) {
-  return number [
-    getMax-getMin
-  ]
+ //TODO
 }
 
 /**
@@ -106,11 +104,14 @@ function getRange(numbers) {
  */
 function getEvens(numbers) {
   // TODO
-  for(let i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2 == 0)
-    even.push(numbers[i]);
+  const evenNumbers = [];
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+      evenNumbers.push(numbers[i]);
+    }
   }
-}
+  return evenNumbers;
+  }
 
 /**
  * @param {number[]} numbers an array of integers
