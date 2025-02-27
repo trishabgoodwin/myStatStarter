@@ -106,6 +106,10 @@ function getRange(numbers) {
  */
 function getEvens(numbers) {
   // TODO
+  for(let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 == 0)
+    even.push(numbers[i]);
+  }
 }
 
 /**
