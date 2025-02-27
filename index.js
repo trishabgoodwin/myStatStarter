@@ -72,11 +72,11 @@ let sum = 0;
  * @returns {number} the smallest of the numbers
  */
 function getMin(numbers) {
-  // TODO
+
   for (i=0; i<1; i++) {
     numbers.sort();
-}
-return numbers[0];
+  }
+  return numbers[0];
 }
 
 /**
@@ -84,7 +84,10 @@ return numbers[0];
  * @returns {number} the largest of the numbers
  */
 function getMax(numbers) {
-  // TODO
+  for (i=0; i<1; i++) {
+    numbers.sort();
+  }
+  return numbers [numbers.length-1]
 }
 
 /**
